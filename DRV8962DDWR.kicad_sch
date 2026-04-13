@@ -4204,7 +4204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "VBUS"
 			(at 166.37 57.15 0)
 			(effects
 				(font
