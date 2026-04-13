@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e8a1091a-f86c-4a0e-9f89-1944d2e62a64")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 83.82 123.19)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a16ad1d8-3628-4dc7-b4ec-9c3a867ebe41")
+		(property "Sheetname" "DRV8962DDWR"
+			(at 83.82 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRV8962DDWR.kicad_sch"
+			(at 83.82 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "foc-stepper-driver"
+				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
