@@ -1321,6 +1321,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers
@@ -1725,6 +1850,16 @@
 			(type default)
 		)
 		(uuid "151cbf47-0a5c-4d2a-a074-a2fa4ad60bfb")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157b471e-16fc-4f74-9bc9-df85f5eb331d")
 	)
 	(wire
 		(pts
@@ -2388,6 +2523,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 74.93) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e6f636-0a2a-45dd-9133-5f66222f43aa")
+	)
+	(wire
+		(pts
 			(xy 162.56 113.03) (xy 165.1 113.03)
 		)
 		(stroke
@@ -2505,16 +2650,6 @@
 			(type default)
 		)
 		(uuid "a6e3ec88-66d2-4ed9-aa54-476207f4165c")
-	)
-	(wire
-		(pts
-			(xy 133.35 76.2) (xy 134.62 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8804582-c63c-411a-8a48-527c224de233")
 	)
 	(wire
 		(pts
@@ -2906,17 +3041,6 @@
 			(justify right)
 		)
 		(uuid "331fbdc0-7c01-4ab6-bc1b-623768357ec0")
-	)
-	(hierarchical_label "DRV8962_VREF"
-		(shape input)
-		(at 133.35 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5b69fa78-c684-4274-88c0-69a38a74e67c")
 	)
 	(hierarchical_label "DRV8962_OUT2"
 		(shape output)
@@ -3971,6 +4095,71 @@
 			(project "foc-stepper-driver"
 				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/a16ad1d8-3628-4dc7-b4ec-9c3a867ebe41"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2c7f16a-7c5d-44a9-b2c7-aff280df7614")
+		(property "Reference" "#PWR041"
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 111.76 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "020ad9f8-131c-4e1b-8d41-6bb03adb088f")
+		)
+		(instances
+			(project "foc-stepper-driver"
+				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/a16ad1d8-3628-4dc7-b4ec-9c3a867ebe41"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
