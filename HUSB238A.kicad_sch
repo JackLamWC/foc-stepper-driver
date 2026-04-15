@@ -1095,107 +1095,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers
@@ -2130,15 +2029,80 @@
 		(uuid "d18ccb93-40e3-40b6-a4d9-c88aa4e09980")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDREF")
+		(at 199.39 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a4082e9-e56a-41a1-a878-ecd6ebbeacd6")
+		(property "Reference" "#PWR017"
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e608c8c9-79fa-438e-8dda-3ad6029992d4")
+		)
+		(instances
+			(project "foc-stepper-driver"
+				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/5c89c446-df9d-4a4a-946a-8d8038168746"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
 		(at 158.75 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "28b86878-5844-4512-9a3f-24c67b6ae4ed")
-		(property "Reference" "#PWR019"
+		(uuid "3a31b21d-4c0e-463d-ad8e-05581037dd98")
+		(property "Reference" "#PWR018"
 			(at 158.75 77.47 0)
 			(effects
 				(font
@@ -2147,7 +2111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 158.75 75.184 0)
 			(effects
 				(font
@@ -2173,7 +2137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 158.75 71.12 0)
 			(effects
 				(font
@@ -2183,12 +2147,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "028bb55d-b37b-4fcd-a20e-eafa516dcc75")
+			(uuid "fdbddd92-ecdf-4b40-93be-d89134ab6eda")
 		)
 		(instances
 			(project "foc-stepper-driver"
 				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/5c89c446-df9d-4a4a-946a-8d8038168746"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2212,7 +2176,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TYPE-C 16PLT-H10.0"
 			(at 82.55 83.82 0)
 			(effects
 				(font
@@ -2371,7 +2335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7Uf"
+		(property "Value" "4.7u"
 			(at 119.38 69.8499 0)
 			(effects
 				(font
@@ -2417,6 +2381,71 @@
 			(project "foc-stepper-driver"
 				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/5c89c446-df9d-4a4a-946a-8d8038168746"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 148.59 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ae5b086-2fbb-42c4-b1d6-f63071dce48e")
+		(property "Reference" "#PWR08"
+			(at 148.59 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 148.59 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c607423d-3677-447f-b363-7c9cd1d500bc")
+		)
+		(instances
+			(project "foc-stepper-driver"
+				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/5c89c446-df9d-4a4a-946a-8d8038168746"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2488,71 +2517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 148.59 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64566f1a-76c5-4bd8-ae2b-8a27ad8c4a00")
-		(property "Reference" "#PWR023"
-			(at 148.59 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 148.59 142.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf7b6b6d-5ac7-4683-b27e-a0435429769f")
-		)
-		(instances
-			(project "foc-stepper-driver"
-				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/5c89c446-df9d-4a4a-946a-8d8038168746"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 127 59.69 0)
 		(unit 1)
@@ -2618,16 +2582,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 125.73 138.43 0)
+		(lib_id "power:GNDREF")
+		(at 138.43 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8785f032-533d-448c-9b99-a06963005f41")
-		(property "Reference" "#PWR022"
-			(at 125.73 144.78 0)
+		(uuid "86158100-9d99-4b80-8550-a30fac53a4ef")
+		(property "Reference" "#PWR019"
+			(at 138.43 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,8 +2599,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 125.73 142.494 0)
+		(property "Value" "GND"
+			(at 138.43 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 138.43 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 138.43 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,8 +2625,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 138.43 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,12 +2635,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8fd0f0b5-07b8-4fa9-94f7-d78b2ffbd02c")
+			(uuid "5d319e07-ee57-48ab-8f90-96cde9946dc4")
 		)
 		(instances
 			(project "foc-stepper-driver"
 				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/5c89c446-df9d-4a4a-946a-8d8038168746"
-					(reference "#PWR022")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2700,7 +2664,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 133.35 140.208 90)
 			(effects
 				(font
@@ -2751,16 +2715,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 199.39 107.95 0)
+		(lib_id "power:GNDREF")
+		(at 125.73 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aac19223-485d-4a57-b8bd-f50c9cc3019e")
-		(property "Reference" "#PWR017"
-			(at 199.39 114.3 0)
+		(uuid "b04dde1b-b4c1-4360-af20-72ab5f1ff6d3")
+		(property "Reference" "#PWR04"
+			(at 125.73 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,8 +2732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 199.39 112.014 0)
+		(property "Value" "GND"
+			(at 125.73 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 107.95 0)
+			(at 125.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 107.95 0)
+			(at 125.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,8 +2758,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 107.95 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 125.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,12 +2768,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c25aea62-af3d-44a1-9673-b256e554348b")
+			(uuid "654be765-f155-4b97-a944-9751d2c2e375")
 		)
 		(instances
 			(project "foc-stepper-driver"
 				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/5c89c446-df9d-4a4a-946a-8d8038168746"
-					(reference "#PWR017")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2940,71 +2904,6 @@
 			(project "foc-stepper-driver"
 				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/5c89c446-df9d-4a4a-946a-8d8038168746"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8205662-2391-468e-a291-f2cec9f02596")
-		(property "Reference" "#PWR018"
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 138.43 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae7ba96d-c31e-472b-b2c4-6904c392c682")
-		)
-		(instances
-			(project "foc-stepper-driver"
-				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/5c89c446-df9d-4a4a-946a-8d8038168746"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)

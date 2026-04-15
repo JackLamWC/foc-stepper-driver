@@ -3338,7 +3338,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 197.485 80.01 0)
 			(effects
 				(font
@@ -3717,7 +3717,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 128.27 69.342 90)
 			(effects
 				(font
@@ -3785,7 +3785,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 183.642 60.96 0)
 			(effects
 				(font
@@ -4183,7 +4183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 205.105 80.01 0)
 			(effects
 				(font
@@ -4323,7 +4323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 123.19 55.8799 0)
 			(effects
 				(font
@@ -4458,7 +4458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 189.865 80.01 0)
 			(effects
 				(font
