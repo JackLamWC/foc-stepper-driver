@@ -571,9 +571,9 @@
 		(at 68.453 91.313)
 		(size 36.957 29.21)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -663,7 +663,7 @@
 				(justify left top)
 			)
 		)
-		(pin "AS5047P_SPI_MOSI" input
+		(pin "AS5047P_SPI_MOSI" tri_state
 			(at 181.61 58.42 180)
 			(uuid "520d5801-5c50-47de-ab91-b8bbe18112db")
 			(effects
@@ -673,7 +673,7 @@
 				(justify left)
 			)
 		)
-		(pin "AS5047P_SPI_MISO" input
+		(pin "AS5047P_SPI_MISO" tri_state
 			(at 181.61 60.96 180)
 			(uuid "9a9e9cbb-4c40-4add-9d72-cd8658c6966c")
 			(effects
@@ -683,7 +683,7 @@
 				(justify left)
 			)
 		)
-		(pin "AS5047P_SPI_CLK" input
+		(pin "AS5047P_SPI_CLK" tri_state
 			(at 181.61 63.5 180)
 			(uuid "2a04f7f1-6ba0-4d48-a96c-d3bb7f888c6d")
 			(effects
@@ -693,7 +693,7 @@
 				(justify left)
 			)
 		)
-		(pin "AS5047P_SPI_CSn" input
+		(pin "AS5047P_SPI_CSn" tri_state
 			(at 181.61 55.88 180)
 			(uuid "bd1a3bf6-4ef7-47e1-bd5e-9ab747a169bd")
 			(effects
@@ -775,7 +775,7 @@
 				(justify right)
 			)
 		)
-		(pin "STM32_SPI1_MOSI" input
+		(pin "STM32_SPI1_MOSI" tri_state
 			(at 161.29 58.42 0)
 			(uuid "b40304de-0aee-494b-838c-091d71679039")
 			(effects
@@ -795,7 +795,7 @@
 				(justify right)
 			)
 		)
-		(pin "STM32_SPI1_MISO" input
+		(pin "STM32_SPI1_MISO" tri_state
 			(at 161.29 60.96 0)
 			(uuid "b37f2b05-6631-4c01-8497-a70d13ec7aab")
 			(effects
@@ -815,7 +815,7 @@
 				(justify right)
 			)
 		)
-		(pin "STM32_SPI1_SCK" input
+		(pin "STM32_SPI1_SCK" tri_state
 			(at 161.29 63.5 0)
 			(uuid "89c3a10f-0a1d-479b-9f6d-8eec8a74576d")
 			(effects
@@ -825,7 +825,7 @@
 				(justify right)
 			)
 		)
-		(pin "STM32_PB3" input
+		(pin "STM32_PB3" output
 			(at 161.29 111.76 0)
 			(uuid "0c737739-66aa-4a46-b4ab-7b85c70c38be")
 			(effects
@@ -835,7 +835,7 @@
 				(justify right)
 			)
 		)
-		(pin "STM32_PB2" input
+		(pin "STM32_PB2" output
 			(at 161.29 114.3 0)
 			(uuid "dec7899b-62cd-4b4c-9687-0631de189c93")
 			(effects
@@ -845,7 +845,7 @@
 				(justify right)
 			)
 		)
-		(pin "STM32_PB5" input
+		(pin "STM32_PB5" output
 			(at 161.29 116.84 0)
 			(uuid "37259b62-40ec-4b26-9a28-a00201cbab17")
 			(effects
@@ -895,7 +895,7 @@
 				(justify left)
 			)
 		)
-		(pin "STM32_SPI_CSn" input
+		(pin "STM32_SPI_CSn" tri_state
 			(at 161.29 55.88 0)
 			(uuid "42c59594-12ba-4c9a-ab21-d97fbc34f1a8")
 			(effects
