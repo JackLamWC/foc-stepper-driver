@@ -1682,6 +1682,12 @@
 		(uuid "7493419b-4188-4ec6-a1dc-c1fa8e0b3b48")
 	)
 	(junction
+		(at 71.12 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "749868c3-b96d-47ad-8af2-5481928a3a8f")
+	)
+	(junction
 		(at 78.74 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1740,6 +1746,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb6bd764-8830-4d1c-8d5a-03ebca6e93c1")
+	)
+	(junction
+		(at 147.32 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f62a794a-75c0-46f0-8714-90cd1faa0b9a")
 	)
 	(wire
 		(pts
@@ -2033,7 +2045,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 68.58) (xy 80.01 68.58)
+			(xy 66.04 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2050,6 +2062,16 @@
 			(type default)
 		)
 		(uuid "68ffa8c2-1bbf-4cb6-a53c-b82cedc4ff7f")
+	)
+	(wire
+		(pts
+			(xy 147.32 123.19) (xy 147.32 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69206cc7-b805-4616-af9f-40e931bfb2d1")
 	)
 	(wire
 		(pts
@@ -2100,6 +2122,16 @@
 			(type default)
 		)
 		(uuid "7740ddf3-0b46-4f54-9f1e-1b6851734d34")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 71.12 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780d8b58-aa24-410f-bcb6-447b779eb903")
 	)
 	(wire
 		(pts
@@ -2203,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 127) (xy 152.4 127)
+			(xy 138.43 127) (xy 147.32 127)
 		)
 		(stroke
 			(width 0)
@@ -2383,6 +2415,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 127) (xy 152.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da45d1f4-af1e-46e7-b301-4bcec287f394")
+	)
+	(wire
+		(pts
 			(xy 157.48 60.96) (xy 157.48 62.23)
 		)
 		(stroke
@@ -2390,6 +2432,16 @@
 			(type default)
 		)
 		(uuid "de2a471b-8ee7-4169-9f86-c32c645e684e")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 80.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30e7f9f-ce3d-4afc-afb7-227e9969fd38")
 	)
 	(wire
 		(pts
@@ -2458,7 +2510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 168.91 69.85 0)
 			(effects
 				(font
@@ -3368,6 +3420,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 71.12 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99790b8b-256a-4900-aa87-ff0f6f09a53d")
+		(property "Reference" "#FLG06"
+			(at 71.12 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51b89eff-9ee3-4b6c-ba7e-6f3dc25e435d")
+		)
+		(instances
+			(project "foc-stepper-driver"
+				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/14216783-423b-4483-89a5-cc1a98e45568"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 138.43 151.13 0)
 		(unit 1)
@@ -3631,6 +3749,72 @@
 			(project "foc-stepper-driver"
 				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/14216783-423b-4483-89a5-cc1a98e45568"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 147.32 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b63c46c2-1329-4de1-80b7-cfaec232c840")
+		(property "Reference" "#FLG05"
+			(at 147.32 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 147.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87c17e9f-d22f-417b-8681-a0f282d89e15")
+		)
+		(instances
+			(project "foc-stepper-driver"
+				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64/14216783-423b-4483-89a5-cc1a98e45568"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -4318,7 +4502,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 152.4 134.62 0)
 			(effects
 				(font

@@ -251,9 +251,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 124.46 110.49)
+		(uuid "19d42c8c-edf5-4a15-965d-3864460e6cf0")
+	)
+	(no_connect
+		(at 124.46 100.33)
+		(uuid "4379c18f-e8ba-426f-956d-f6f97ccf3590")
+	)
 	(wire
 		(pts
-			(xy 219.075 110.49) (xy 224.79 110.49)
+			(xy 218.44 110.49) (xy 224.79 110.49)
 		)
 		(stroke
 			(width 0)
@@ -263,7 +271,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.075 102.87) (xy 224.79 102.87)
+			(xy 218.44 102.87) (xy 224.79 102.87)
 		)
 		(stroke
 			(width 0)
@@ -303,7 +311,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.075 105.41) (xy 224.79 105.41)
+			(xy 218.44 105.41) (xy 224.79 105.41)
 		)
 		(stroke
 			(width 0)
@@ -313,7 +321,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.075 107.95) (xy 224.79 107.95)
+			(xy 218.44 107.95) (xy 224.79 107.95)
 		)
 		(stroke
 			(width 0)
@@ -350,16 +358,6 @@
 			(type default)
 		)
 		(uuid "77fe9add-5072-4ee7-9b54-8897bad9ebd9")
-	)
-	(wire
-		(pts
-			(xy 105.41 110.49) (xy 124.46 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850d337a-2508-4fec-a36a-a53ec62622d5")
 	)
 	(wire
 		(pts
@@ -400,16 +398,6 @@
 			(type default)
 		)
 		(uuid "ce9b7547-6083-4cb7-b97c-f20da53f544e")
-	)
-	(wire
-		(pts
-			(xy 105.41 100.33) (xy 124.46 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbe72151-c606-4108-94ef-3eed3d6467b1")
 	)
 	(wire
 		(pts
@@ -477,7 +465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-4P_1x04_P2.54mm_Horizontal"
 			(at 229.87 105.41 0)
 			(effects
 				(font
@@ -563,68 +551,6 @@
 			(project "foc-stepper-driver"
 				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 68.453 91.313)
-		(size 36.957 29.21)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 255 194 1.0000)
-		)
-		(uuid "5c89c446-df9d-4a4a-946a-8d8038168746")
-		(property "Sheetname" "HUSB238A"
-			(at 68.453 90.6014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "HUSB238A.kicad_sch"
-			(at 68.453 121.1076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "HUSB238A_SDA" bidirectional
-			(at 105.41 110.49 0)
-			(uuid "3d7d2dc8-75de-4729-83f9-1ade82d845eb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HUSB238A_SCL" bidirectional
-			(at 105.41 100.33 0)
-			(uuid "037377bb-88e9-41e8-8b9f-e8faae2f30de")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "foc-stepper-driver"
-				(path "/e8a1091a-f86c-4a0e-9f89-1944d2e62a64"
-					(page "4")
 				)
 			)
 		)
@@ -915,7 +841,7 @@
 	)
 	(sheet
 		(at 181.61 88.9)
-		(size 37.465 33.02)
+		(size 36.83 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -988,7 +914,7 @@
 			)
 		)
 		(pin "DRV8962_OUT1" output
-			(at 219.075 102.87 0)
+			(at 218.44 102.87 0)
 			(uuid "9ecb97f3-0f6e-4f58-859d-2a0ea7489e20")
 			(effects
 				(font
@@ -1008,7 +934,7 @@
 			)
 		)
 		(pin "DRV8962_OUT2" output
-			(at 219.075 105.41 0)
+			(at 218.44 105.41 0)
 			(uuid "6905b657-a73e-461b-92f5-2db0677cac2d")
 			(effects
 				(font
@@ -1068,7 +994,7 @@
 			)
 		)
 		(pin "DRV8962_OUT3" output
-			(at 219.075 107.95 0)
+			(at 218.44 107.95 0)
 			(uuid "6d78f817-41be-4b66-ae80-d501d42e42d2")
 			(effects
 				(font
@@ -1078,7 +1004,7 @@
 			)
 		)
 		(pin "DRV8962_OUT4" output
-			(at 219.075 110.49 0)
+			(at 218.44 110.49 0)
 			(uuid "bb0a5710-ae68-4ead-8df8-c08496e235e8")
 			(effects
 				(font
