@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.05,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -187,7 +187,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.15,
+        0.2,
+        0.29,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -474,7 +478,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -486,6 +490,13 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "120_CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15
       }
     ],
     "meta": {
@@ -493,7 +504,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "120_CAN",
+        "pattern": "/STM32G431CBT6/CAN_CONN+"
+      },
+      {
+        "netclass": "120_CAN",
+        "pattern": "/STM32G431CBT6/CAN_CONN-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -545,6 +565,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -584,25 +610,19 @@
           "group_by": false,
           "label": "Manufacturer Part",
           "name": "Manufacturer Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier Part",
-          "name": "Supplier Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -614,13 +634,19 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -628,7 +654,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

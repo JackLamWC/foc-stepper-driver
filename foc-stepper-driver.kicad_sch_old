@@ -206,17 +206,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 105.41) (xy 181.61 105.41)
+			(xy 218.44 110.49) (xy 224.79 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08b82b58-2e35-4d9f-a92c-9c357ae661aa")
+		(uuid "06d41f33-f335-40b3-b49c-0e91afaa6e5e")
 	)
 	(wire
 		(pts
-			(xy 218.44 102.87) (xy 229.87 102.87)
+			(xy 218.44 102.87) (xy 224.79 102.87)
 		)
 		(stroke
 			(width 0)
@@ -226,23 +226,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 107.95) (xy 229.87 107.95)
+			(xy 161.29 105.41) (xy 181.61 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c57e125-1c84-494d-8b3d-395b3363b477")
-	)
-	(wire
-		(pts
-			(xy 161.29 107.95) (xy 170.18 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10bc90f4-1e94-40b2-8b59-b3699a7d0849")
+		(uuid "10c09d6d-4e1a-40c1-9370-ce0a40619997")
 	)
 	(wire
 		(pts
@@ -256,27 +246,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 96.52) (xy 181.61 96.52)
+			(xy 161.29 96.52) (xy 181.61 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4015bb08-d597-4064-ab3e-cef6e63e3a24")
+		(uuid "3c4c3f32-c9f9-4692-a72f-ac309dd1a55d")
 	)
 	(wire
 		(pts
-			(xy 162.56 105.41) (xy 161.29 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "437ead96-bc6b-4b14-9678-89dee048b77b")
-	)
-	(wire
-		(pts
-			(xy 218.44 105.41) (xy 229.87 105.41)
+			(xy 218.44 105.41) (xy 224.79 105.41)
 		)
 		(stroke
 			(width 0)
@@ -286,43 +266,23 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 107.95) (xy 179.07 107.95)
+			(xy 218.44 107.95) (xy 224.79 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f3b54c9-3a9a-492e-b0a1-0fe5e351e6c5")
+		(uuid "4b78fcef-283a-4147-a985-e15ac10f73b4")
 	)
 	(wire
 		(pts
-			(xy 220.98 110.49) (xy 229.87 110.49)
+			(xy 161.29 107.95) (xy 181.61 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5574fe10-4800-4df0-ad02-7410de386240")
-	)
-	(wire
-		(pts
-			(xy 162.56 102.87) (xy 162.56 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63852c28-b0b4-4bc6-b1f7-e8a514ae2cdd")
-	)
-	(wire
-		(pts
-			(xy 170.18 107.95) (xy 170.18 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ed3e32-2213-4aa8-b266-055a755330ca")
+		(uuid "506ffdd6-776e-4914-b2e6-3b9dbac29f11")
 	)
 	(wire
 		(pts
@@ -336,23 +296,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 97.79) (xy 179.07 97.79)
+			(xy 161.29 99.06) (xy 181.61 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a135664-1e24-42e7-b1e8-949cd8cd3bce")
-	)
-	(wire
-		(pts
-			(xy 219.71 110.49) (xy 219.71 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c5d462f-369c-48ac-ad18-808a30b91d98")
+		(uuid "77fe9add-5072-4ee7-9b54-8897bad9ebd9")
 	)
 	(wire
 		(pts
@@ -376,26 +326,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 107.95) (xy 220.98 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "973aeaac-e292-4ac7-a901-39a4628413d7")
-	)
-	(wire
-		(pts
-			(xy 161.29 96.52) (xy 165.1 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97cb634c-8593-4e5a-a20a-454a755e8669")
-	)
-	(wire
-		(pts
 			(xy 161.29 63.5) (xy 181.61 63.5)
 		)
 		(stroke
@@ -403,46 +333,6 @@
 			(type default)
 		)
 		(uuid "9fa95a44-7c07-4699-96bf-082c0947de5b")
-	)
-	(wire
-		(pts
-			(xy 179.07 102.87) (xy 162.56 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd08ba6-140e-4984-9a40-aaa2cdfb0700")
-	)
-	(wire
-		(pts
-			(xy 179.07 107.95) (xy 179.07 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a010a6ab-8a8e-4a82-bb05-728ef1714493")
-	)
-	(wire
-		(pts
-			(xy 163.83 99.06) (xy 163.83 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b281bf78-fc35-4830-aa9f-6aa07fa0aceb")
-	)
-	(wire
-		(pts
-			(xy 219.71 109.22) (xy 228.6 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b58aa61c-bcc7-420e-85a8-966a80d18b07")
 	)
 	(wire
 		(pts
@@ -456,36 +346,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 110.49) (xy 219.71 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d231f84e-7dc6-4199-9e9d-28101d681a70")
-	)
-	(wire
-		(pts
-			(xy 165.1 96.52) (xy 165.1 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ee65fa-2be8-4d2b-b722-59d381342ae9")
-	)
-	(wire
-		(pts
-			(xy 220.98 107.95) (xy 220.98 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1df5d62-d22e-4354-96ff-6077c0321642")
-	)
-	(wire
-		(pts
 			(xy 161.29 60.96) (xy 181.61 60.96)
 		)
 		(stroke
@@ -496,26 +356,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 99.06) (xy 181.61 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e584e121-dc8f-4680-9693-fbe9e2c4e226")
-	)
-	(wire
-		(pts
-			(xy 161.29 99.06) (xy 163.83 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7d6a4c2-6ac1-4cf8-b05d-44f6087b5b32")
-	)
-	(wire
-		(pts
 			(xy 161.29 93.98) (xy 181.61 93.98)
 		)
 		(stroke
@@ -523,26 +363,6 @@
 			(type default)
 		)
 		(uuid "ee3b7e8f-c3cf-426e-a90d-8993aba59ccf")
-	)
-	(wire
-		(pts
-			(xy 179.07 97.79) (xy 179.07 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2b9473b-3359-498a-817a-80616e7fd993")
-	)
-	(wire
-		(pts
-			(xy 228.6 109.22) (xy 228.6 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9729337-e654-427b-a560-a00472104031")
 	)
 	(wire
 		(pts
@@ -566,7 +386,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA_Lib:PA-4A")
-		(at 234.95 106.68 0)
+		(at 229.87 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -575,7 +395,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8412813-2ce9-4946-ae1c-6b67c7893b75")
 		(property "Reference" "CN2"
-			(at 238.76 105.4099 0)
+			(at 233.68 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -584,7 +404,7 @@
 			)
 		)
 		(property "Value" "C2839706"
-			(at 238.76 107.9499 0)
+			(at 233.68 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,7 +413,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:CONN-TH_PA-4A"
-			(at 234.95 106.68 0)
+			(at 229.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,7 +422,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/PA-4A/3016907.html"
-			(at 234.95 106.68 0)
+			(at 229.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,7 +431,7 @@
 			)
 		)
 		(property "Description" "Pins Structure:1x4P Pitch:2mm Mounting Type:Through Hole Reference Series:PA Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating Temperature:-25"
-			(at 234.95 106.68 0)
+			(at 229.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,7 +440,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PA-4A"
-			(at 234.95 106.68 0)
+			(at 229.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,7 +449,7 @@
 			)
 		)
 		(property "Manufacturer" "FG(富港)"
-			(at 234.95 106.68 0)
+			(at 229.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -638,7 +458,7 @@
 			)
 		)
 		(property "Supplier Part" "C2839706"
-			(at 234.95 106.68 0)
+			(at 229.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,7 +467,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 234.95 106.68 0)
+			(at 229.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -656,7 +476,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x4P 间距:2mm 直插 系列:PA"
-			(at 234.95 106.68 0)
+			(at 229.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,7 +485,7 @@
 			)
 		)
 		(property "LCSC" "C2839706"
-			(at 238.76 105.4099 0)
+			(at 233.68 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
