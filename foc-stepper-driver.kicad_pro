@@ -511,8 +511,8 @@
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.1999,
-        "diff_pair_width": 0.1153,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1293,
         "name": "120_CAN",
         "pcb_color": "rgb(255, 0, 255)",
         "priority": 2,
@@ -531,7 +531,7 @@
       {
         "clearance": 0.2,
         "diff_pair_gap": 0.1999,
-        "diff_pair_width": 0.2649,
+        "diff_pair_width": 0.2837,
         "name": "USB_90",
         "pcb_color": "rgb(0, 255, 255)",
         "priority": 1,
