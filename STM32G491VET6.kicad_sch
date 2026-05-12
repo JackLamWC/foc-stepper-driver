@@ -7709,7 +7709,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 257.81 124.4599 0)
 			(effects
 				(font
@@ -7718,7 +7718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 253.492 123.19 90)
 			(effects
 				(font
@@ -7919,7 +7919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 257.81 134.6199 0)
 			(effects
 				(font
@@ -7928,7 +7928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 253.492 133.35 90)
 			(effects
 				(font
