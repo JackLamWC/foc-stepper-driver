@@ -1196,7 +1196,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:RV50V47M6X5"
+		(symbol "EasyEDA_Lib:RVT1H470M0607"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1217,7 +1217,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "EasyEDA_Lib:CAP-SMD_BD6.3-L6.6-W6.6-LS7.3-FD"
+			(property "Footprint" "EasyEDA_Lib:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1226,7 +1226,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/RV50V47M6X5/51296228.html"
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/RVT1H470M0607/73634.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1235,7 +1235,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Ripple Current:50mA@120Hz Diameter:6.3mm Height - Seated (Max):5.4mm Lifetime:2000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
+			(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Ripple Current:66mA@120Hz Equivalent Series Resistance(ESR):- Diameter:6.3mm Height - Seated (Max):7.7mm Lifetime:2000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1244,7 +1244,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part" "RV50V47M6X5"
+			(property "Manufacturer Part" "RVT1H470M0607"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1253,7 +1253,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "JIERR(捷而瑞)"
+			(property "Manufacturer" "ROQANG(容强)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1262,7 +1262,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C48971023"
+			(property "Supplier Part" "C72523"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1289,10 +1289,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "RV50V47M6X5_1_0"
+			(symbol "RVT1H470M0607_1_0"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -0.508 0)
+						(xy -2.54 0.762) (xy -1.524 0.762)
 					)
 					(stroke
 						(width 0)
@@ -1304,7 +1304,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.286 1.27) (xy -1.27 1.27)
+						(xy -2.032 1.27) (xy -2.032 0.254)
 					)
 					(stroke
 						(width 0)
@@ -1316,7 +1316,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 1.778) (xy -1.778 0.762)
+						(xy -1.27 0) (xy -0.508 0)
 					)
 					(stroke
 						(width 0)
@@ -1328,7 +1328,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 1.778) (xy -0.508 -1.778)
+						(xy -0.508 2.032) (xy -0.508 -2.032)
 					)
 					(stroke
 						(width 0)
@@ -1340,7 +1340,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 0) (xy 2.54 0)
+						(xy 0.508 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1350,10 +1350,12 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 1.1176 -1.7526)
-					(mid 0.4064 0)
-					(end 1.143 1.778)
+				(polyline
+					(pts
+						(xy 1.2192 1.8542) (xy 0.8382 1.2954) (xy 0.8382 1.2954) (xy 0.5842 0.7112) (xy 0.5842 0.7112)
+						(xy 0.508 0.0762) (xy 0.508 0.0762) (xy 0.5588 -0.5334) (xy 0.5588 -0.5334) (xy 0.762 -1.1684)
+						(xy 0.762 -1.1684) (xy 1.1176 -1.7272)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1363,7 +1365,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -1381,7 +1383,7 @@
 					)
 				)
 				(pin input line
-					(at 5.08 0 180)
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -3107,6 +3109,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 72.39) (xy 217.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dbfa59-b09a-422f-ad3d-191fa2ef6753")
+	)
+	(wire
+		(pts
 			(xy 162.56 52.07) (xy 163.83 52.07)
 		)
 		(stroke
@@ -3194,6 +3206,16 @@
 			(type default)
 		)
 		(uuid "d3e440a1-9368-44a4-94ac-a0f557a0072a")
+	)
+	(wire
+		(pts
+			(xy 217.17 81.28) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44be808-e339-4988-9d8b-0298014dacd4")
 	)
 	(wire
 		(pts
@@ -4725,7 +4747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.172 58.42 90)
 			(effects
 				(font
@@ -4777,7 +4799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RV50V47M6X5")
+		(lib_id "EasyEDA_Lib:RVT1H470M0607")
 		(at 217.17 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4802,7 +4824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:CAP-SMD_BD6.3-L6.6-W6.6-LS7.3-FD"
+		(property "Footprint" "EasyEDA_Lib:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD"
 			(at 217.17 77.47 0)
 			(effects
 				(font
@@ -4811,7 +4833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RV50V47M6X5/51296228.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/RVT1H470M0607/73634.html"
 			(at 217.17 77.47 0)
 			(effects
 				(font
@@ -4820,7 +4842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Ripple Current:50mA@120Hz Diameter:6.3mm Height - Seated (Max):5.4mm Lifetime:2000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
+		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Ripple Current:66mA@120Hz Equivalent Series Resistance(ESR):- Diameter:6.3mm Height - Seated (Max):7.7mm Lifetime:2000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+1"
 			(at 217.17 77.47 0)
 			(effects
 				(font
@@ -4829,7 +4851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RV50V47M6X5"
+		(property "Manufacturer Part" "RVT1H470M0607"
 			(at 217.17 77.47 0)
 			(effects
 				(font
@@ -4838,7 +4860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JIERR(捷而瑞)"
+		(property "Manufacturer" "ROQANG(容强)"
 			(at 217.17 77.47 0)
 			(effects
 				(font
@@ -4847,7 +4869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C48971023"
+		(property "Supplier Part" "C72523"
 			(at 217.17 77.47 0)
 			(effects
 				(font
